@@ -23,7 +23,7 @@ pipeline {
                     )
                 }
 
-                bat 'docker run -d --name jenkins-docker-demo -p 8081:80 jenkins-docker-demo'
+                bat 'docker run -d --name jenkins-docker-demo -p 8082:80 jenkins-docker-demo'
             }
         }
     }
